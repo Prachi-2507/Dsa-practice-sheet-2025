@@ -9,7 +9,6 @@ public:
                     minIndex = j;
                 }
             }
-            // Swap only once per outer loop
             if (minIndex != i) {
                 int temp = arr[i];
                 arr[i] = arr[minIndex];
